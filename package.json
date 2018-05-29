@@ -1,0 +1,19 @@
+{
+  "name": "lambda-function-potrace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haribote/lambda-function-potrace.git"
+  },
+  "author": "KIMURA Tetsuro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haribote/lambda-function-potrace/issues"
+  },
+  "homepage": "https://github.com/haribote/lambda-function-potrace#readme"
+}
