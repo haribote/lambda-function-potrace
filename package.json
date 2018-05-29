@@ -18,5 +18,11 @@
   "homepage": "https://github.com/haribote/lambda-function-potrace#readme",
   "peerDependencies": {
     "aws-sdk": "^2.247.1"
+  },
+  "devDependencies": {
+    "@maboroshi/eslint-config": "^1.0.0",
+    "@maboroshi/prettier-config": "^1.0.0",
+    "eslint": "^4.19.1",
+    "prettier": "^1.13.0"
   }
 }
