@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/haribote/lambda-function-potrace/issues"
   },
-  "homepage": "https://github.com/haribote/lambda-function-potrace#readme"
+  "homepage": "https://github.com/haribote/lambda-function-potrace#readme",
+  "peerDependencies": {
+    "aws-sdk": "^2.247.1"
+  }
 }
