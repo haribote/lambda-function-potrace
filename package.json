@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "zip -r ~/Desktop/potrace.zip index.js lib/ node_modules/",
     "lint": "eslint *.js src/**/*.js",
     "lint:fix": "npm run lint -- --fix",
     "precommit": "lint-staged",
