@@ -4,6 +4,6 @@ const dummy = require('../__mocks__/dummy.jpg')
 describe('lambda-function-potrace', () => {
   it('matches to snapshot', async () => {
     const svg = await lambda.handler({ base64Image: dummy })
-    expect(svg).toMatchSnapshot()
+    expect(new Buffer(svg, 'base64').toString()).toMatchSnapshot()
   })
 })
