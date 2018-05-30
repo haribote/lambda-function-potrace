@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/haribote/lambda-function-potrace#readme",
   "dependencies": {
-    "potrace": "^2.1.1"
+    "potrace": "^2.1.1",
+    "svgo": "^1.0.5"
   },
   "devDependencies": {
     "@maboroshi/eslint-config": "^1.0.0",
